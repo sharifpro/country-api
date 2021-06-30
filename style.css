@@ -1,0 +1,41 @@
+#countries{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+.country{
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    padding: 20px;
+    text-align: center;
+    width: 300px;
+    background-color: rgb(52, 55, 231);
+}
+.country-name{
+    color: rgb(109, 0, 128);
+    font-size: 45px;
+    
+}
+#countryDetail img{
+     width: 300px;
+}
+#countryDetail{
+    border: 1px solid black;
+    text-align: center;
+    margin: 30px;
+    padding: 20px;
+    width: 500px;
+    border-radius: 10px;
+    display: none;
+}
+.capital{
+    color: crimson;
+    font-size: 30px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.button{
+    background-color: cyan;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 5px;
+}
